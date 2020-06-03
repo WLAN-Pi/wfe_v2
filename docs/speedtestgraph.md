@@ -3,8 +3,11 @@
 <meta charset="UTF-8" />
 
 <style type="text/css">
-html,
-body {
+#testWrapper{
+    text-align:center;
+    font-family:"Roboto",sans-serif;
+}
+#testArea {
     margin: 0;
     padding: 0;
     border: none;
@@ -226,6 +229,7 @@ function abortTest() {
 }
 </script>
 
+<div id="testWrapper">
 <div id="testArea" style="display:none">
     <h4>Throughput</h4>
     <canvas id="chart1Area"></canvas>
@@ -238,6 +242,7 @@ function abortTest() {
 <a href="javascript:runTest()" id="startBtn">Start</a>
 
 <br/><br/> Charts by <a href="http://www.chartjs.org/">Chart.js</a><br/><br/><a href="https://github.com/librespeed/speedtest">Source code</a>
+</div>
 
 
 

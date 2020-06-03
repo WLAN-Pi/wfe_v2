@@ -49,6 +49,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#profiler" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -146,30 +151,18 @@
       
 
 
-  <li class="md-nav__item">
-    <a href=".." title="Home" class="md-nav__link">
-      Home
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
   <li class="md-nav__item md-nav__item--nested">
     
-      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
     
-    <label class="md-nav__link" for="nav-2">
+    <label class="md-nav__link" for="nav-1">
       Speedtest
       <span class="md-nav__icon md-icon">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
       </span>
     </label>
     <nav class="md-nav" aria-label="Speedtest" data-md-level="1">
-      <label class="md-nav__title" for="nav-2">
+      <label class="md-nav__title" for="nav-1">
         <span class="md-nav__icon md-icon">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
         </span>
@@ -184,7 +177,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../speedtest/" title="Classic" class="md-nav__link">
+    <a href=".." title="Classic" class="md-nav__link">
       Classic
     </a>
   </li>
@@ -213,19 +206,7 @@
 
 
   <li class="md-nav__item">
-    <a href="../kismet/" title="Kismet" class="md-nav__link">
-      Kismet
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
-    <a href="../downloads/" title="Downloads" class="md-nav__link">
+    <a href="../utilities/" title="Downloads" class="md-nav__link">
       Downloads
     </a>
   </li>
@@ -241,6 +222,8 @@
   <li class="md-nav__item md-nav__item--active">
     
     <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
     
     
     <a href="./" title="Profiler" class="md-nav__link md-nav__link--active">
@@ -274,12 +257,39 @@
   </li>
 
     
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../about/" title="About" class="md-nav__link">
+      About
+    </a>
+  </li>
+
+    
   </ul>
 </nav>
                   </div>
                 </div>
               </div>
             
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
             
           
           <div class="md-content">
@@ -290,22 +300,20 @@
                   
                 
                 
-                  <h1>Profiler</h1>
-                
-                
-                
-                  
-                    
+                <h1 id="profiler">Profiler</h1>
+<p>The profiler application is a powerful tool that allows wireless clients to be analysed based on the capabilities they display when they associate to a wireless network.</p>
+<p>To activate the profiler, please start the profiler process via the front panel menu system options: </p>
+<pre><code>Menu &gt; Apps &gt; Profiler &gt; Start
+</code></pre>
 
-<hr>
-<div class="md-source-date">
-  <small>
-    
-      Last update: June 3, 2020
-    
-  </small>
-</div>
-                  
+<p>(ensure you have a wireless NIC plugged in to a WLAN Pi USB port before starting the process)</p>
+<p>Once the profiler is started, an SSID will be visible that will allow clients to be profiled.</p>
+<p>To view clients results and reports, the following links may be used to view the client profile reports on the WLAN Pi:</p>
+<ul>
+<li><a href="/profiler/clients/">Client profiles</a></li>
+<li><a href="/profiler/reports/">Profile reports</a></li>
+</ul>
+<p>Visit the WLAN Pi documentation site for more details about profiler: <a href="https://wlan-pi.github.io/wlanpi-documentation/pkg_util_profiler/">link</a></p>
                 
               
               
@@ -324,7 +332,7 @@
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
         
-          <a href="../downloads/" title="Downloads" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../utilities/" title="Downloads" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-footer-nav__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
             </div>
