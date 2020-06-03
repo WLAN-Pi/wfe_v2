@@ -1,0 +1,25 @@
+site_name: WLAN Pi Web GUI
+nav:
+    - Home: index.md
+    - Speedtest:
+        - Classic: speedtest.md
+        - Graph: speedtestgraph.md
+    - Kismet: kismet.md
+    - Downloads: downloads.md
+    - Profiler: profiler.md
+    - Admin Panel (Cockpit): cockpit.md
+    - Documentation: documentation.md
+theme:
+    name: 'material'
+    icon:
+        logo: material/wifi
+    language: en
+extra_css:
+  - extra.css
+markdown_extensions:
+  - admonition
+plugins:
+    - search
+    - git-revision-date-localized
+dev_addr: '127.0.0.1:8880'
+
